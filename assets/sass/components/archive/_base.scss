@@ -1,0 +1,21 @@
+/* # Archive
+  --------------------------------------------- */
+
+.archive-description {
+    background-color: #ccc;
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    padding: 60px;
+    p:last-child {
+        margin-bottom: 0;
+    }
+    .entry-title,
+    .archive-title {
+        font-size: 20px;
+    }
+    @media screen and (max-width: 860px) {
+        padding: 30px;
+        margin-bottom: 5%;
+    }
+}

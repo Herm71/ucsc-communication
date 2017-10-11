@@ -18,7 +18,7 @@
  * @return string 
  */
 
- function get_settings_preix(){
+ function get_settings_prefix(){
      return 'developers';
  }
 
