@@ -2,6 +2,6 @@
   --------------------------------------------- */
 
 .nav-secondary {
-    background-color: #fff;
-    border-top: 1px solid #eee;
+    background-color: $secNav__BackgroundColor;
+    border-top: 1px solid $secNav__BorderColor;
 }
