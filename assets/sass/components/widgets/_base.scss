@@ -1,13 +1,13 @@
-//
-// Widget Base Stylings
-//========================
+/* # Widget base styling
+  ---------------------------------------------------------------------------------------------------- */
+
 .widget {
     margin-bottom: 40px;
     word-wrap: break-word;
     ul>li {
         margin-bottom: 10px;
         padding-bottom: 10px;
-        & ul>li:last-of-type {
+        &:last-of-type {
             padding-bottom: 0;
         }
         ol>li {

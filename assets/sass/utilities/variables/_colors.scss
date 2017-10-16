@@ -1,5 +1,5 @@
 /*
- * Base Colors
+ * Base 
  *-------------------------------*/
 
 $white #ffffff;
@@ -10,14 +10,14 @@ $link__hoverColor: #333;
 $body__backgroundColor: #eee;
 
 /*
- * Header Colors
+ * Header 
  *-------------------------------*/
 
 $siteHeader__BackgroundColor: $white;
 $siteTitle__LinkColor: #333;
 
 /*
- * Navigation Colors
+ * Navigation 
  *-------------------------------*/
 
 $nav__LinkColor: #333;
@@ -42,7 +42,7 @@ $archivePagination__HoverTextColor: $white;
 $breadcrumbs_BackgroundColor: $white;
 
 /*
- * Footer Colors
+ * Footer 
  *-------------------------------*/
 
 $siteFooter__BackgroundColor: $white;
@@ -50,7 +50,7 @@ $footerWidgets__BackgroundColor: $white;
 $siteFooter__BorderColor: #eee;
 
 /*
- * Entry Content Colors
+ * Entry Content 
  *-------------------------------*/
 
 $entryFooter__Meta__BorderColor: #eee;
@@ -62,7 +62,13 @@ $entryContent__Code__BackgroundColor: #eee;
 $entryContent__Code__Color: #333;
 
 /*
- * Entry Content Colors
+ * Comment 
  *-------------------------------*/
 
 $comment__BackgroundColor: $white;
+
+/*
+ * Widgets
+ *-------------------------------*/
+
+$widgetTitle__LinkColor: #333;
