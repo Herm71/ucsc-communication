@@ -18,7 +18,7 @@
         margin-bottom: 0;
     }
     code {
-        background-color: #eee;
-        color: #333;
+        background-color: $entryContent__Code__BackgroundColor;
+        color: $entryContent__Code__Color;
     }
 }
