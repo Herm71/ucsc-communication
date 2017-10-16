@@ -4,15 +4,12 @@
     .content-sidebar-sidebar &,
     .sidebar-content-sidebar &,
     .sidebar-sidebar-content & {
-        width: 1060px;
-        @media only screen and (max-width: 1304px) {
-            width: 920px;
+        width: $contentSidebarWrap__Width;
+        @media only screen and (max-width: $largerScreen) {
+            width: $contentSidebarWrap__LargerScreenWidth;
         }
-        @media only screen and (max-width: 1200px) {
-            width: 740px;
-        }
-        @media only screen and (max-width: 1023px) {
-            width: 100%;
+        @media only screen and (max-width: $largeScreen) {
+            width: $contentSidebarWrap__LargeScreenWidth;
         }
     }
     .content-sidebar-sidebar & {

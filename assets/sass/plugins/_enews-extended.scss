@@ -1,29 +1,28 @@
 .sidebar .enews-widget {
-    background-color: #333;
+    background-color: $enews__BackgroundColor;
     &,
     .widget-title {
-        color: $white;
+        color: $enews__Color;
     }
     input {
         &:focus {
-            border: 1px solid #333;
+            border: 1px solid $enews__InputBorderColor;
         }
         &[type="submit"] {
-            background-color: #c3251d;
-            color: $white;
+            background-color: $enews__submitButton__BackgroundColor;
+            color: $enews__submitButton__Color;
         }
         &:hover[type="submit"],
         &:focus[type="submit"] {
-            background-color: $white;
-            color: #c3251d;
+            background-color: $enews__submitButtonBackground__HoverColor;
+            color: $enews__submitButton__HoverColor;
         }
     }
 }
 
 .enews-widget {
     input {
-        font-size: 16px;
-        font-size: 1.6rem;
+        font-size: rem ($news__FontSize);
         margin-bottom: 16px;
         &[type="submit"] {
             margin: 0;

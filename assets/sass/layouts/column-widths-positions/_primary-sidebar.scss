@@ -3,16 +3,11 @@
 .sidebar-primary {
     float: right;
     width: 360px;
-    width: 660px;
-    @media only screen and (max-width: 1340px) {
-        width: 300px;
+    @media only screen and (max-width: $largerScreen) {
+        width: $primarySidebar__LargerScreenWidth;
     }
-    @media only screen and (max-width: 1023px) {
-        width: 100%;
+    .sidebar-content &,
+    .sidebar-sidebar-content & {
+        float: left;
     }
-}
-
-.sidebar-content .sidebar-primary,
-.sidebar-sidebar-content .sidebar-primary {
-    float: left;
 }
