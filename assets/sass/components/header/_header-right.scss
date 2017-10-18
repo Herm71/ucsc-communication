@@ -5,10 +5,10 @@
     float: right;
     text-align: right;
     width: $headerRight__Width;
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: $largeScreen) {
         width: $headerRight__LaptopWidth;
     }
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $mediumScreen) {
         text-align: center;
         width: 100%;
     }

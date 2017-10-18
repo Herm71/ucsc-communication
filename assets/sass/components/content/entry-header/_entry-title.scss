@@ -9,7 +9,7 @@
         text-decoration: none;
         &:hover,
         &:focus {
-            color: #c3251d;
+            color: $entryTitle__HoverColor;
         }
     }
 }

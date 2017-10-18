@@ -6,7 +6,7 @@
     float: left;
     padding: 10px 0;
     width: $titleArea__Width;
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $mediumScreen) {
         width: 100%;
         text-align: center;
     }
@@ -16,7 +16,7 @@
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: $mediumScreen) {
     .site-description,
     .site-header .title-area,
     .site-header .widget-area,

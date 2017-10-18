@@ -1,12 +1,9 @@
-/* # After Entry
-  --------------------------------------------- */
-
 .after-entry {
     background-color: $afterEntry__BackgroundColor;
     font-size: rem( $afterEntry__FontSize);
     margin-bottom: 40px;
     padding: 60px;
-    @media screen and (max-width: 860px) {
+    @media screen and (max-width: $smallScreen) {
         padding: 30px;
         margin-bottom: 5%;
     }

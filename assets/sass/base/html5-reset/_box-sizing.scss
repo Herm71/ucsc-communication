@@ -3,7 +3,7 @@
 
 html,
 input[type="search"] {
-    box-sizing: border-box;
+    @include box-sizing (border-box);
 }
 
 *,

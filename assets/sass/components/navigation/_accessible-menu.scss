@@ -18,7 +18,7 @@
 .menu-toggle {
     display: none;
     visibility: hidden;
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $mediumScreen) {
         border-width: 0;
         background-color: $navToggle__BackgroundColor;
         color: $navToggle__TextColor;
@@ -30,7 +30,7 @@
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: $mediumScreen) {
     .sub-menu-toggle {
         float: right;
         padding: 10px;
@@ -52,7 +52,7 @@
         }
     }
     .menu-toggle {
-        border-top: 1px solid #eee;
+        border-top: 1px solid $mobileNav__BorderColor;
         line-height: 20px;
         position: relative;
         right: 0;

@@ -4,7 +4,7 @@
 .pagination {
     clear: both;
     margin: 40px 0;
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: $smallScreen) {
         margin: 5% auto;
     }
 }
@@ -16,7 +16,7 @@
 .archive-pagination {
     li {
         display: inline;
-        @media only screen and (max-width: 860px) {
+        @media only screen and (max-width: $smallScreen) {
             a {
                 margin-bottom: 4px;
             }

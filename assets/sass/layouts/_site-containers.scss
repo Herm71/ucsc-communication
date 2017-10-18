@@ -4,7 +4,7 @@
 .site-inner,
 .wrap {
     margin: 0 auto;
-    max-width: $maxWidth; //1280
+    max-width: $maxWidth;
     @media screen and (max-width: $largerScreen) {
         max-width: $maxWidth__LargerScreen;
     }

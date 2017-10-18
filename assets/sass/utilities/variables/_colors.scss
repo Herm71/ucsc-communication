@@ -4,10 +4,45 @@
 
 $white #ffffff;
 $black #000000;
-$base__color: #333;
 $link__color: #c3251d;
 $link__hoverColor: #333;
-$body__backgroundColor: #eee;
+
+/*
+ * Elements 
+ *-------------------------------*/
+
+$base__Color: #333;
+$body__BackgroundColor: #eee;
+$hr__BorderColor: #eee;
+
+/*
+ * ## Form Elements 
+ *-------------------------------*/
+
+$input__BackgroundColor: $white;
+$input__BorderColor: #333;
+$input__TextColor: #333;
+$input__FocusBorderColor: #ddd;
+$button__TextColor: $white;
+$button__BackgroundColor: #333;
+$button__HoverTextColor: $white;
+$button__HoverBackgroundColor: #c3251d;
+$button__DisabledBackgroundColor: #eee;
+$button__DisabledTextColor: #777;
+
+/*
+ * ## Image Elements 
+ *-------------------------------*/
+
+$galleryImage__BorderColor: #eee;
+$galleryImage__HoverBorderColor: #999;
+
+/*
+ * Accessibility 
+ *-------------------------------*/
+
+$skipLink__Focus__TextColor: #333;
+$skipLink__Focus__OutlineColor: #333;
 
 /*
  * Header 
@@ -28,8 +63,9 @@ $primaryNav__BackgroundColor: $white;
 $primaryNav__BorderColor: #eee;
 $primaryNav__LinkColor: $nav__LinkColor;
 $secNav__BackgroundColor: $white;
-$primaryNav__BorderColor: #eee;
+$secNav__BorderColor: #eee;
 $secNav__LinkColor: $nav__LinkColor;
+$mobileNav__BorderColor: #eee;
 $jsNav__BackgroundColor: $white;
 $jsNav__HoverColor: $black;
 $jsNav__FocusColor: #c3251d;
@@ -68,10 +104,17 @@ $entryContent__Code__Color: #333;
 $comment__BackgroundColor: $white;
 
 /*
+ * Author box 
+ *-------------------------------*/
+
+$authorbox__BackgroundColor: $white;
+
+/*
  * Widgets
  *-------------------------------*/
 
 $widgetTitle__LinkColor: #333;
+$widget__BackgroundColor: $white;
 
 /*
  * Plugins
@@ -84,3 +127,9 @@ $enews__submitButton__BackgroundColor:#c3251d;
 $enews__submitButton__Color: $white;
 $enews__submitButton__BackgroundHoverColor:$enews__submitButton__Color;
 $enews__submitButton__HoverColor: $enews__submitButton__BackgroundColor;
+
+/*
+ * Archive
+ *-------------------------------*/
+
+$archiveDescription__BackgroundColor: #ccc;

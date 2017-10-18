@@ -12,17 +12,17 @@
 .footer-widgets-2,
 .footer-widgets-3 {
     width: $footerWidgets__Width;
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: $largeScreen) {
         width: $footerWidgets__Width_LargeScreen;
     }
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $mediumScreen) {
         width: 100%;
     }
 }
 
 .footer-widgets-1 {
     margin-right: 70px;
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: $largeScreen) {
         margin-right: 30px;
     }
 }
@@ -30,7 +30,7 @@
 .footer-widgets-1,
 .footer-widgets-2 {
     float: left;
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $mediumScreen) {
         margin: 0 auto 40px;
     }
 }
