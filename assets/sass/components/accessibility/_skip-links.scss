@@ -14,6 +14,6 @@
 /* Display outline on focus */
 
  :focus {
-    color: $skipLink__Focus__TextColor;
-    outline: $skipLink__Focus__OutlineColor solid 1px;
+    color: $skip-link--focus-text-color;
+    outline: $skip-link--focus-outline-color solid 1px;
 }

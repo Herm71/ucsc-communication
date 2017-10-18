@@ -3,9 +3,9 @@
  *-------------------------------*/
 
 .site-description {
-    font-size: rem( $siteDescription__FontSize);
+    font-size: rem( $site-description--font-size);
     font-weight: 400;
-    line-height: $siteDescription__LineHeight;
+    line-height: $site-description--line-height;
 }
 
 .site-description,

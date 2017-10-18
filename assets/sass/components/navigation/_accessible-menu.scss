@@ -18,10 +18,10 @@
 .menu-toggle {
     display: none;
     visibility: hidden;
-    @media only screen and (max-width: $mediumScreen) {
+    @include media($breakpoint__screen-size--medium) {
         border-width: 0;
-        background-color: $navToggle__BackgroundColor;
-        color: $navToggle__TextColor;
+        background-color: $nav-toggle--background-color;
+        color: $nav-toggle--text-color;
         display: block;
         margin: 0 auto;
         overflow: hidden;
@@ -30,7 +30,7 @@
     }
 }
 
-@media only screen and (max-width: $mediumScreen) {
+@include media($breakpoint__screen-size--medium) {
     .sub-menu-toggle {
         float: right;
         padding: 10px;
@@ -52,7 +52,7 @@
         }
     }
     .menu-toggle {
-        border-top: 1px solid $mobileNav__BorderColor;
+        border-top: 1px solid $mobile-nav--border-color;
         line-height: 20px;
         position: relative;
         right: 0;

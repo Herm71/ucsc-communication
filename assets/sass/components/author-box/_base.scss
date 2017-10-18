@@ -1,16 +1,16 @@
 .author-box {
-    background-color: $authorbox__BackgroundColor;
-    font-size: rem ($authorbox__FontSize);
+    background-color: $author-box--background-color;
+    font-size: rem ($author-box--font-size);
     margin-bottom: 60px;
     p:last-child {
         margin-bottom: 0;
     }
-    @include media( $smallScreen) {
+    @include media( $screen-size--small) {
         padding: 30px;
         margin-bottom: 5%;
     }
 }
 
 .author-box-title {
-    font-size: $authorbox__Title__FontSize;
+    font-size: $author-box-title--font-size;
 }

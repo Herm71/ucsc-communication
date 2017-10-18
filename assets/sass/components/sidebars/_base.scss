@@ -1,8 +1,8 @@
 .sidebar {
-    font-size: rem($widget__FontSize);
+    font-size: rem($widget--font-size);
     margin-bottom: 40px;
     .widget {
-        background-color: $widget__BackgroundColor;
+        background-color: $widget--background-color;
         padding: 40px;
     }
 }

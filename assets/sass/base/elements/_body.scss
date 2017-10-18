@@ -2,27 +2,27 @@
   --------------------------------------------- */
 
 html {
-    font-size: $html__FontSize;
+    font-size: $html--font-size;
     /* 10px browser default */
 }
 
 body {
-    background-color: $body__BackgroundColor;
-    color: $base__Color;
-    font-family: $base__FontFamily;
-    font-size: rem($base__FontSize);
+    background-color: $body--background-color;
+    color: $base--color;
+    font-family: $base--font-family;
+    font-size: rem($base--font-size);
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
-    line-height: $base__LineHeight;
+    line-height: $base--line-height;
     margin: 0;
-    @media screen and (max-width: $smallScreen) {
-        font-size: rem($base__FontSize__SmallScreenWidth);
+    @media screen and (max-width: $screen-size--small) {
+        font-size: rem($base--font-size--small-screen-width);
     }
     /* Chrome fix */
     >div {
-        font-size: rem($baseDiv__FontSize);
-        @media screen and (max-width: $smallScreen) {
-            font-size: rem($baseDiv__FontSize__SmallScreenWidth);
+        font-size: rem($base__div--font-size);
+        @media screen and (max-width: $screen-size--small) {
+            font-size: rem($base__div--font-size--small-screen-width);
         }
     }
 }

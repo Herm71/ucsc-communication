@@ -11,7 +11,7 @@
     .site-header & {
         float: right;
         margin: 12px auto 0;
-        @media only screen and (max-width: $mediumScreen) {
+        @include media($breakpoint__screen-size--medium) {
             float: none;
             margin: 16px auto;
         }

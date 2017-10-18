@@ -2,13 +2,13 @@
  *  Device Screen Size
  *-------------------------------------------------*/
 
-$hugeScreen: 1600px;
-$largerScreen: 1340px;
-$largeScreen: 1200px;
-$mediumScreen: 1023px;
-$smallScreen: 860px;
-$smallerScreen: 480px;
-$smallestScreen: 320px;
+$screen-size--huge: 1600px;
+$screen-size--larger: 1340px;
+$screen-size--large: 1200px;
+$screen-size--medium: 1023px;
+$screen-size--small: 860px;
+$screen-size--smaller: 480px;
+$screen-size--smallest: 320px;
 
 /*
  *  Note: These were stolen from WebDevStudios/wd_s on github

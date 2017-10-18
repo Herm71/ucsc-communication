@@ -2,8 +2,8 @@
   ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-    background-color: $footerWidgets__BackgroundColor;
-    font-size: rem($footerWidgts_FontSize);
+    background-color: $footer-widgets--background-color;
+    font-size: rem($footer-widgets--font-size);
     clear: both;
     padding: 60px 0;
 }
@@ -11,18 +11,18 @@
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
-    width: $footerWidgets__Width;
-    @media only screen and (max-width: $largeScreen) {
-        width: $footerWidgets__Width_LargeScreen;
+    width: $footer-widths--width;
+    @include media($breakpoint__screen-size--large) {
+        width: $footer-widths--width-large-screen;
     }
-    @media only screen and (max-width: $mediumScreen) {
+    @include media($breakpoint__screen-size--medium) {
         width: 100%;
     }
 }
 
 .footer-widgets-1 {
     margin-right: 70px;
-    @media only screen and (max-width: $largeScreen) {
+    @include media($breakpoint__screen-size--large) {
         margin-right: 30px;
     }
 }
@@ -30,7 +30,7 @@
 .footer-widgets-1,
 .footer-widgets-2 {
     float: left;
-    @media only screen and (max-width: $mediumScreen) {
+    @include media($breakpoint__screen-size--medium) {
         margin: 0 auto 40px;
     }
 }
