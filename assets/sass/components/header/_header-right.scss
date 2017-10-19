@@ -6,7 +6,7 @@
     text-align: right;
     width: $header-right--width;
     @include media($breakpoint__screen-size--large) {
-        width: $headerRight__LaptopWidth;
+        width: $header-right--width-large-screen;
     }
     @include media($breakpoint__screen-size--medium) {
         text-align: center;

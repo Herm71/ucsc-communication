@@ -1,0 +1,24 @@
+{
+    "name": "developers",
+    "version": "1.0.0",
+    "description": "Developer friendly starter child theme for the Genesis framework that includes a modular architecture, Sass, gulp, Bourbon, Neat and Composer. It is your starting child theme for all of your projects to save you time and money.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Herm71/genesis-child-theme.git"
+    },
+    "author": "Blackbird Consulting",
+    "license": "GPL",
+    "bugs": {
+        "url": "https://github.com/Herm71/genesis-child-theme/issues"
+    },
+    "homepage": "https://github.com/Herm71/genesis-child-theme#readme",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-sass": "^3.1.0",
+        "bourbon": "^4.2.6",
+        "bourbon-neat": "^1.7.2"
+    }
+}

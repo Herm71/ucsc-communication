@@ -14,7 +14,7 @@
         }
         &:hover[type="submit"],
         &:focus[type="submit"] {
-            background-color: $enews__submit-buttonBackground--hover-color;
+            background-color: $enews__submit-button--background-hover-color;
             color: $enews__submit-button--hover-color;
         }
     }
@@ -22,7 +22,7 @@
 
 .enews-widget {
     input {
-        font-size: rem ($news--font-size);
+        font-size: rem ($enews--font-size);
         margin-bottom: 16px;
         &[type="submit"] {
             margin: 0;
