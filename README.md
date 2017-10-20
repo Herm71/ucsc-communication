@@ -1,4 +1,4 @@
-# Genesis Develoiper's Starter Child Theme
+# Genesis Developer's Starter Child Theme
 
 Developer friendly starter child theme for the Genesis framework that includes a modular architecture, Sass, gulp, Bourbon, Neat and Composer. It is your starting child theme for all of your projects to save you time and money.
 
