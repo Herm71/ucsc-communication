@@ -1,7 +1,6 @@
-/*
- *  Device Screen Size
- *-------------------------------------------------*/
-
+//
+// Device Screen Sizes
+//==========================
 $screen-size--huge: 1600px;
 $screen-size--larger: 1340px;
 $screen-size--large: 1200px;
@@ -9,20 +8,3 @@ $screen-size--medium: 1023px;
 $screen-size--small: 860px;
 $screen-size--smaller: 480px;
 $screen-size--smallest: 320px;
-
-/*
- *  Note: These were stolen from WebDevStudios/wd_s on github
- *-------------------------------------------------*/
-
-/// Larger HD Desktops.
-$desktop-large: 1800px;
-/// Standard Desktops and Larger Laptops.
-$desktop: 1200px;
-/// Smaller Desktops and Standard iPad Tablet.
-$tablet-landscape: 900px;
-/// Breakpoint for WP Admin Bar.
-$wp-admin-bar: 783px;
-/// Smaller Tablets and Standard iPad Portrait.
-$tablet-portrait: 600px;
-/// Phones Smaller Than 500px in Width.
-$phone: 300px;

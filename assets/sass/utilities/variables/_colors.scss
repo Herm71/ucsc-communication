@@ -1,7 +1,5 @@
-/*
- * Base 
- *-------------------------------*/
-
+// Base Colors
+//===================
 $white: #fff;
 $black: #000;
 $gray--lightestest: #ccc;
@@ -10,26 +8,16 @@ $gray--lighter: #eee;
 $gray--light: #777;
 $gray: #333;
 $red: #c3251d;
-
-/*
- * Color Configuration 
- *-------------------------------*/
-
+//
+// Color Configuration
+//===========================
 $link--color: $red;
 $link--hover-color: $gray;
-
-/*
- * Elements 
- *-------------------------------*/
-
+// Elements
 $base--color: $gray;
 $body--background-color: $gray--lighter;
 $hr--border-color: $gray--lighter;
-
-/*
- * ## Form Elements 
- *-------------------------------*/
-
+// Form Elements
 $input--background-color: $white;
 $input--border-color: $gray;
 $input--text-color: $gray;
@@ -40,32 +28,20 @@ $button--hover-text-color: $white;
 $button--hover-background-color: $red;
 $button--disabled-background-color: $gray--lighter;
 $button--disabled-text-color: $gray--light;
-
-/*
- * ## Image Elements 
- *-------------------------------*/
-
+// Image Elements
 $gallery-image--border-color: $gray--lighter;
 $gallery-image--hover-border-color: $gray--light;
-
-/*
- * Accessibility 
- *-------------------------------*/
-
+// Accessibility
 $skip-link--focus-text-color: $gray;
 $skip-link--focus-outline-color: $gray;
-
-/*
- * Header 
- *-------------------------------*/
-
+//
+// Header
+//======================
 $site-header--background-color: $white;
 $site-title--link-color: $gray;
-
-/*
- * Navigation 
- *-------------------------------*/
-
+//
+// Navigation
+//============================
 $nav--link-color: $gray;
 $nav--hover-color: $red;
 $submenu--border-color: $gray--lighter;
@@ -86,51 +62,33 @@ $archive-pagination--background-color: $white;
 $archive-pagination--text-color: $gray;
 $archive-pagination--hover-background-color: $red;
 $archive-pagination--hover-text-color: $white;
-$breadcrumbs--background-color: $white;
-
-/*
- * Footer 
- *-------------------------------*/
-
+//
+// Footer
+//============================
 $site-footer--background-color: $white;
 $footer-widgets--background-color: $white;
 $site-footer--border-color: $gray--lighter;
-
-/*
- * Entry Content 
- *-------------------------------*/
-
+//
+// Entry Content
+//===================
 $entry-footer__meta--border-color: $gray--lighter;
 $entry--background-color: $white;
 $entry-title--link-color: $gray;
 $entry-title--hover-color: $red;
-$after-entry--background-color: $white;
 $entry-content__code--background-color: $gray--lighter;
 $entry-content__code--color: $gray;
-
-/*
- * Comment 
- *-------------------------------*/
-
+//
+// Comments
+//===================
 $comment--background-color: $white;
-
-/*
- * Author box 
- *-------------------------------*/
-
-$author-box--background-color: $white;
-
-/*
- * Widgets
- *-------------------------------*/
-
+//
+// Widgets
+//===================
 $widget-title--link-color: $gray;
 $widget--background-color: $white;
-
-/*
- * Plugins
- *-------------------------------*/
-
+//
+// Plugins
+//===================
 $enews--color: $white;
 $enews--background-color: $gray;
 $enews__input--border-color: $gray;
@@ -138,9 +96,8 @@ $enews__submit-button--background-color:$red;
 $enews__submit-button--color: $white;
 $enews__submit-button--background-hover-color:$enews__submit-button--color;
 $enews__submit-button--hover-color: $enews__submit-button--background-color;
-
-/*
- * Archive
- *-------------------------------*/
-
+// General Components
+$author-box--background-color: $white;
+$breadcrumbs--background-color: $white;
+$after-entry--background-color: $white;
 $archive-description--background-color: $gray--lightestest;

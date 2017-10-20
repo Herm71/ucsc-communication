@@ -6,7 +6,7 @@
 	Author: Blackbird Consulting
 	Author URI: http://www.blackbirdconsult.com/
 
-	Version: 1.0.0
+	Version: 1.0.42
 
 	
 	Template: genesis
@@ -17,12 +17,12 @@
 	Text Domain: developers
 */
 
-@import "bourbon";
-@import "neat";
-@import "../../node_modules/sass-rem/rem";
-@import "utilities/index";
-@import "base/index";
-@import "layouts/index";
-@import "components/index";
-@import "plugins/index";
-@import "views/index";
+@import 'bourbon';
+@import 'neat';
+@import '../../node_modules/sass-rem/rem';
+@import 'utilities/index';
+@import 'base/index';
+@import 'layouts/index';
+@import 'components/index';
+@import 'plugins/index';
+@import 'views/index';
