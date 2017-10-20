@@ -427,8 +427,8 @@ body {
   background-color: #eee;
   color: #333;
   font-family: "Source Sans Pro", sans-serif, sans-serif;
-  font-size: 20;
-  font-size: 20;
+  font-size: 20px;
+  font-size: 2rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   line-height: 1.625;
@@ -438,20 +438,20 @@ body {
 
 @media screen and (max-width: 860px) {
   body {
-    font-size: 18;
-    font-size: 18;
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 
 body > div {
-  font-size: 20;
-  font-size: 20;
+  font-size: 20px;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 860px) {
   body > div {
-    font-size: 18;
-    font-size: 18;
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 
@@ -521,8 +521,8 @@ blockquote {
 blockquote::before {
   content: "\201C";
   display: block;
-  font-size: 30;
-  font-size: 30;
+  font-size: 30px;
+  font-size: 3rem;
   height: 0;
   left: -20px;
   position: relative;
@@ -544,33 +544,33 @@ h6 {
 }
 
 h1 {
-  font-size: 36;
-  font-size: 36;
+  font-size: 36px;
+  font-size: 3.6rem;
 }
 
 h2 {
-  font-size: 30;
-  font-size: 30;
+  font-size: 30px;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 24;
-  font-size: 24;
+  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 h4 {
-  font-size: 20;
-  font-size: 20;
+  font-size: 20px;
+  font-size: 2rem;
 }
 
 h5 {
-  font-size: 18;
-  font-size: 18;
+  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 h6 {
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 /* ## Objects
@@ -600,7 +600,7 @@ textarea {
   background-color: #fff;
   border: 1px solid #333;
   color: #333;
-  font-size: rem 18;
+  font-size: rem 18px;
   font-weight: 400;
   padding: 16px;
   width: 100%;
@@ -636,8 +636,8 @@ input[type="submit"],
   border: 0;
   color: #fff;
   cursor: pointer;
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
   padding: 16px 24px;
   text-decoration: none;
@@ -1256,8 +1256,8 @@ img.alignright {
  * Site Title
  *-------------------------------*/
 .site-title {
-  font-size: 30;
-  font-size: 30;
+  font-size: 30px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1273,8 +1273,8 @@ img.alignright {
  * Site Description
  *-------------------------------*/
 .site-description {
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -1335,8 +1335,8 @@ img.alignright {
   ---------------------------------------------------------------------------------------------------- */
 .genesis-nav-menu {
   clear: both;
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1;
   width: 100%;
@@ -1389,8 +1389,8 @@ img.alignright {
   background-color: #fff;
   border: 1px solid #eee;
   border-top: 0;
-  font-size: 14;
-  font-size: 14;
+  font-size: 14px;
+  font-size: 1.4rem;
   padding: 20px;
   position: relative;
   width: 200px;
@@ -1504,7 +1504,7 @@ img.alignright {
   --------------------------------------------- */
 .breadcrumb {
   background-color: #fff;
-  font-size: rem 16;
+  font-size: rem 16px;
   margin-bottom: 1px;
   padding: 12px 30px;
 }
@@ -1559,8 +1559,8 @@ img.alignright {
   color: #333;
   cursor: pointer;
   display: inline-block;
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   padding: 8px 12px;
   text-decoration: none;
@@ -1666,8 +1666,8 @@ img.alignright {
  * Entry Title
  *-------------------------------*/
 .entry-title {
-  font-size: 36;
-  font-size: 36;
+  font-size: 36px;
+  font-size: 3.6rem;
 }
 
 .entry-title a {
@@ -1681,8 +1681,8 @@ img.alignright {
 
 .entry-header .entry-meta {
   margin-bottom: 24px;
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .entry-comments-link::before {
@@ -1725,7 +1725,7 @@ img.alignright {
   border-top: 1px solid #eee;
   padding-top: 24px;
   margin-bottom: 0;
-  font-size: rem 16;
+  font-size: rem 16px;
 }
 
 .entry-categories,
@@ -1737,8 +1737,8 @@ img.alignright {
   --------------------------------------------- */
 .after-entry {
   background-color: #fff;
-  font-size: 18;
-  font-size: 18;
+  font-size: 18px;
+  font-size: 1.8rem;
   margin-bottom: 40px;
   padding: 60px;
 }
@@ -1754,7 +1754,7 @@ img.alignright {
   --------------------------------------------- */
 .author-box {
   background-color: #fff;
-  font-size: rem 18;
+  font-size: rem 18px;
   margin-bottom: 60px;
 }
 
@@ -1770,7 +1770,7 @@ img.alignright {
 }
 
 .author-box-title {
-  font-size: 18;
+  font-size: 18px;
 }
 
 .author-box .avatar {
@@ -1786,8 +1786,8 @@ img.alignright {
 .entry-comments,
 .entry-pings {
   background-color: #fff;
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 40px;
 }
 
@@ -1870,8 +1870,8 @@ img.alignright {
 /* # Sidebars
   ---------------------------------------------------------------------------------------------------- */
 .sidebar {
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 40px;
 }
 
@@ -1933,8 +1933,8 @@ img.alignright {
 }
 
 .widget-title {
-  font-size: 18;
-  font-size: 18;
+  font-size: 18px;
+  font-size: 1.8rem;
   margin-bottom: 20px;
 }
 
@@ -1962,8 +1962,8 @@ img.alignright {
 }
 
 .featured-content .entry-title {
-  font-size: 20;
-  font-size: 20;
+  font-size: 20px;
+  font-size: 2rem;
 }
 
 /* ## Search Form
@@ -2010,8 +2010,8 @@ img.alignright {
   ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
   background-color: #fff;
-  font-size: 18;
-  font-size: 18;
+  font-size: 18px;
+  font-size: 1.8rem;
   clear: both;
   padding: 60px 0;
 }
@@ -2069,8 +2069,8 @@ img.alignright {
 .site-footer {
   background-color: #fff;
   border-top: 1px solid #eee;
-  font-size: 16;
-  font-size: 16;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-size: 1.6rem;
   line-height: 1;
   padding: 60px 0;
@@ -2107,7 +2107,7 @@ img.alignright {
 }
 
 .enews-widget input {
-  font-size: rem 16;
+  font-size: rem 16px;
   margin-bottom: 16px;
 }
 
@@ -2132,8 +2132,8 @@ img.alignright {
   --------------------------------------------- */
 .archive-description {
   background-color: #ccc;
-  font-size: 18;
-  font-size: 18;
+  font-size: 18px;
+  font-size: 1.8rem;
   margin-bottom: 40px;
   padding: 60px;
 }
@@ -2151,6 +2151,6 @@ img.alignright {
 
 .archive-description .entry-title,
 .archive-title {
-  font-size: 20;
-  font-size: 20;
+  font-size: 20px;
+  font-size: 2rem;
 }
