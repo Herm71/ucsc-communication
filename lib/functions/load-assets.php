@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace Blackbird\Developers;
+ namespace UCSC\Communications;
 
  add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_assets' );
 /**

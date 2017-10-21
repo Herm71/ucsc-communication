@@ -1,6 +1,6 @@
 <?php
 /**
- * Front page
+ * Description
  *
  * @package Blackbird\Developers
  * @since   1.0.0
@@ -10,6 +10,9 @@
  */
  namespace UCSC\Communications;
 
- return array (
+ add_action ('genesis_after_header',  __NAMESPACE__ . '\test_shortcode');
 
- );
+ function test_shortcode(){
+    echo do_shortcode ('say-hello');
+ };
+

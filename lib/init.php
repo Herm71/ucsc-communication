@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace Blackbird\Developers;
+ namespace UCSC\Communications;
 
  /** 
   * Initialize theme's constants

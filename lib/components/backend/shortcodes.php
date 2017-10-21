@@ -1,6 +1,6 @@
 <?php
 /**
- * Front page
+ * Description
  *
  * @package Blackbird\Developers
  * @since   1.0.0
@@ -9,7 +9,12 @@
  * @license GNU General Public License 2.0+
  */
  namespace UCSC\Communications;
+ 
+ //Jason's Test Functions
+function say_hello() {
 
- return array (
+echo 'Hello!';
 
- );
+}
+
+add_shortcode('say-hello', 'say_hello');

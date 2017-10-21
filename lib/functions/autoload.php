@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace Blackbird\Developers;
+ namespace UCSC\Communications;
 
  /**
  * Loads non-admin files
@@ -22,13 +22,21 @@ function load_nonadmin_files(){
     $filenames = array (
     'setup.php',
     'components/customizer/css-handler.php',
+    
     'components/customizer/helpers.php',
+    //'components/backend/base.php',
+    'components/backend/post-types.php',
+    'components/backend/shortcodes.php',
+    'components/backend/sidebars.php',
+    'components/backend/taxonomies.php',
     'functions/formatting.php',
     'functions/load-assets.php',
     'functions/markup.php',
+    'functions/general.php',
     'structure/archive.php',
     'structure/comments.php',
     'structure/footer.php',
+    'structure/before_header.php',
     'structure/header.php',
     'structure/menu.php',
     'structure/post.php',

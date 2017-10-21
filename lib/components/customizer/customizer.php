@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace Blackbird\Developers\Customizer;
+ namespace UCSC\Communications\Customizer;
 
  use WP_Customize_Color_Control;
 

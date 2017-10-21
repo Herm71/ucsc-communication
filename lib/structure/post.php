@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace Blackbird\Developers;
+ namespace UCSC\Communications;
 
  //* 
 add_filter( 'genesis_author_box_gravatar_size', __NAMESPACE__ . '\setup_author_box_gravatar_size' );

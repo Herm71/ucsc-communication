@@ -8,7 +8,7 @@
  * @link        https://knowthecode.io
  * @license     GNU General Public License 2.0+
  */
-namespace Blackbird\Developers;
+namespace UCSC\Communications;
 
 /**
  * Unregister archive callbacks.
