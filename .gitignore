@@ -4,6 +4,10 @@ phpunit.xml
 /bin
 tests/mocks/env/
 
+# Style Sheets
+style.css
+style.min.css
+
 # Sass Cache
 .sass-Cache
 
