@@ -11,16 +11,18 @@
         text-align: center;
     }
     .header-full-width & {
-        float: none;
-        width: 100%;
+        //float: none;
+        //width: 100%;
     }
 }
 
 @include media($breakpoint__screen-size--medium) {
     .site-description,
-    .site-header .title-area,
     .site-header .widget-area,
     .site-title {
         text-align: center;
+    }
+    .site-header .title-area {
+        width: auto;
     }
 }

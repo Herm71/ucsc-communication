@@ -4,7 +4,12 @@
         max-width: $title-area--width;
         padding: 0;
         @include media($breakpoint__screen-size--medium) {
+            float: left;
+            width: 100%;
+        }
+        @include media($breakpoint__screen-size--smaller) {
             float: none;
+            overflow: hidden;
         }
     }
     .site-title>a {

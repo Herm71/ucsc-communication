@@ -2,6 +2,12 @@
 
 .page-top {
     background-color: $ucsc--dark-blue;
+    position: fixed;
+    text-align: initial;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
     .top-row {
         margin-top: 0;
         margin-bottom: 0;

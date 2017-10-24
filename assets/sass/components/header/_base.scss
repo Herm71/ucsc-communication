@@ -2,18 +2,25 @@
   // Site Header Base Styles
   //==============================
   .site-header {
+      margin-top: 67px;
       background-color: $site-header--background-color;
       >.wrap {
           padding: 20px 0;
       }
       @include media($breakpoint__screen-size--medium) {
           .wrap {
-              padding-left: 5%;
-              padding-right: 5%;
+              padding-left: 0;
+              padding-right: 0;
           }
           .search-form {
               float: none;
               margin: 16px auto;
+          }
+      }
+      @include media($breakpoint__screen-size--small) {
+          .wrap {
+              padding-left: 5%;
+              padding-right: 5%;
           }
       }
   }

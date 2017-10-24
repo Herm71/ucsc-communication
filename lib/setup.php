@@ -22,7 +22,7 @@ add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme', 15 );
 function setup_child_theme() {
 	load_child_theme_textdomain( CHILD_TEXT_DOMAIN, apply_filters( 'child_theme_textdomain', CHILD_THEME_DIR . '/languages', CHILD_TEXT_DOMAIN ) );
 	unregister_genesis_callbacks();
-	
+	repositions_primary_navigation();
 
 	adds_theme_supports();
 	adds_new_image_sizes();
@@ -37,10 +37,24 @@ function setup_child_theme() {
  */
 function unregister_genesis_callbacks() {
 	unregister_menu_callbacks();
-	//unregister_header_callbacks();
+	unregister_sidebar('header-right');
     //unregister_footer_callbacks();
     //add each of the unregister structure callbacks here
 }
+
+/**
+ * Reposition Primary Nav
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+
+ function repositions_primary_navigation(){
+	 // Reposition the primary navigation menu.
+	remove_action( 'genesis_after_header', 'genesis_do_nav' );
+	add_action( 'genesis_header', 'genesis_do_nav' );
+ }
 
 /**
  * Adds theme supports to the site.
@@ -78,9 +92,17 @@ function adds_theme_supports() {
 		'genesis-after-entry-widget-area' => null,
 		'genesis-footer-widgets'          => 3,
 		'genesis-menus'                   => array(
-			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),
+			'primary'   => __( 'Primary Navigation Menu', CHILD_TEXT_DOMAIN ),
 			'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
 		),
+		'genesis-structural-wraps'           => array(
+			'header',
+			//'menu-primary',
+			'menu-secondary',
+			'footer-widgets',
+			'footer'
+		),
+		
 	);
 
 	foreach ( $config as $feature => $args ) {
