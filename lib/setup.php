@@ -156,7 +156,7 @@ function update_theme_settings_defaults(){
  */
 function get_theme_settings_defaults(){
 	return array(
-		'blog_cat_num'              => 12,	
+		'blog_cat_num'              => 15,	
 		'content_archive'           => 'full',
 		'content_archive_limit'     => 0,
 		'content_archive_thumbnail' => 0,

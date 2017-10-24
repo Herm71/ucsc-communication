@@ -18,7 +18,7 @@
 add_action('genesis_before_header', __NAMESPACE__ . '\bb_add_top_row');
 
 function bb_add_top_row(){
-	$logo = CHILD_THEME_DIR.'/assets/images/logo-abbr.png';
+	$logo = get_stylesheet_directory_uri().'/assets/images/logo-abbr.png';
 	// Change $custom_title text as you wish
 	$custom_title = '<a href="/"><img class="header-logo" src="'.$logo.'" alt="UCSC Logo" ></a>';
 	echo '<div class="page-top">';

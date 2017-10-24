@@ -2,7 +2,7 @@
 
 .content {
     float: right;
-    width: $content__Width;
+    width: $content--width;
     @include media($breakpoint__screen-size--larger) {
         width: $content--width-larger-screen;
     }

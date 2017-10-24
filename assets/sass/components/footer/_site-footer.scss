@@ -13,3 +13,28 @@
         margin-bottom: 0;
     }
 }
+
+
+/**
+ * Footer Social
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+.footer-social {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    li {
+        display: inline;
+        padding: 0 10px 0 0 !important;
+        &:last-child {
+            padding: 0;
+        }
+        a:hover {
+            color: #00458c
+        }
+    }
+}

@@ -5,13 +5,13 @@
 .wrap {
     margin: 0 auto;
     max-width: $max-width;
-    @media screen and (max-width: $screen-size--larger) {
+    @include media($breakpoint__screen-size--larger) {
         max-width: $max-width--larger-screen;
     }
-    @media screen and (max-width: $screen-size--large) {
+    @include media ($breakpoint__screen-size--large) {
         max-width: $max-width--large-screen;
     }
-    @media screen and (max-width: $screen-size--medium) {
+    @include media ($breakpoint__screen-size--medium) {
         max-width: $max-width--medium-screen;
     }
 }
@@ -20,13 +20,13 @@
     clear: both;
     padding-top: 40px;
     word-wrap: break-word;
-    @media screen and (max-width: $screen-size--small) {
+    @include media ($breakpoint__screen-size--small) {
         padding: 5% 5% 0;
     }
 }
 
 .wrap {
-    @media screen and (max-width: $screen-size--small) {
+    @include media ($breakpoint__screen-size--small) {
         padding-left: 5%;
         padding-right: 5%;
     }
