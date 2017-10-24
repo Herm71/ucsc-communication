@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace UCSC\Communications;
+ namespace UCSC\Genesis;
  //* Force full-width-content layout setting
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 

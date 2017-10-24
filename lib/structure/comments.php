@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace UCSC\Communications;
+ namespace UCSC\Genesis;
 
  //* 
 add_filter( 'genesis_comment_list_args', __NAMESPACE__ . '\setup_comments_gravatar' );

@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace UCSC\Communications;
+ namespace UCSC\Genesis;
 
 add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme', 15 );
 

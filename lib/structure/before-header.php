@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace UCSC\Communications\Structure;
+ namespace UCSC\Genesis\Structure;
 
  /**
  * Customize Site Header

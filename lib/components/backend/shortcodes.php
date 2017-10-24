@@ -8,7 +8,7 @@
  * @link    https://www.blackbirdconsult.com
  * @license GNU General Public License 2.0+
  */
- namespace UCSC\Communications;
+ namespace UCSC\Genesis;
  
  //Jason's Test Functions
 function say_hello() {
