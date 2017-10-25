@@ -23,8 +23,30 @@ This child theme requires the following dependencies:
 - The Genesis Framework
 - WordPress
 
+## Additional Requirements
+
+- [composer](https://getcomposer.org/)
+- [npm](https://www.npmjs.com/)
+
 ## Customization
 
 ## Configuration
 
 ## Installation
+
+### Download
+
+Download the latest `.zip` file at:
+
+[git@github.com:Herm71/ucsc-communication.git](git@github.com:Herm71/ucsc-communication.git)
+
+Add to your WordPress by uploading the `.zip` under **Appearance**
+
+### Clone
+
+clone into your `/wp-content/themes/` directory:
+`git clone git@github.com:Herm71/ucsc-communication.git ucsc-communications`
+
+### Compile
+`npm install`
+`gulp styles`
