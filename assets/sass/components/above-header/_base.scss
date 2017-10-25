@@ -8,6 +8,9 @@
     left: 0;
     top: 0;
     z-index: 100;
+    .admin-bar & {
+        top: 32px;
+    }
     .top-row {
         margin-top: 0;
         margin-bottom: 0;
