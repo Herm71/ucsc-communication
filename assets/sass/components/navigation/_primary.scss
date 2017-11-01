@@ -5,4 +5,12 @@
     background-color: $primary-nav--background-color;
     border-top: none;
     float: right;
+    .home-hero & {
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        & a {
+            color: $white;
+        }
+    }
 }

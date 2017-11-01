@@ -1,0 +1,18 @@
+  //
+  // Hero Header Styles
+  //==============================
+  .home-hero {
+      background: url("assets/images/home-hero.jpg") no-repeat center center;
+      height: 100vh;
+      .site-header & {
+          background-size: cover;
+          min-height: 500px;
+      }
+      .hero-container {
+          display: flex;
+          flex-wrap: wrap;
+          height: 100%;
+          align-items: center;
+          width: 100%;
+      }
+  }

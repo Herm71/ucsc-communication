@@ -12,4 +12,9 @@
         color: $site-title--link-color;
         text-decoration: none;
     }
+    .home-hero & {
+        color: $white;
+        text-align: center;
+        font-size: 55px;
+    }
 }
